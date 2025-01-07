@@ -30,10 +30,17 @@ Declaration: If you use this script, be sure to cite the following literature. T
 
 Reference:
 [1] Tian Lu, Molclus program, Version x.x, http://www.keinsci.com/research/molclus.html (accessed March 10, 2024)
+
 [2]	Y. Ma, Q. B. Mou, D. Y. Yan, X. Y. Zhu, View 2020, 1, 20200062.
+
 [3]	A. P. Bento, A. Hersey, E. Félix, G. Landrum, A. Gaulton, F. Atkinson, L. J. Bellis, M. De Veij, A. R. Leach, J. Cheminformatics 2020, 12, 51.
+
 [4]	I. Muz, Inorg. Chim. Acta 2019, 495, 118950.
+
 [5]	C. Bannwarth, E. Caldeweyher, S. Ehlert, A. Hansen, P. Pracht, J. Seibert, S. Spicher, S. J. W. I. R. C. M. S. Grimme, Wiley Interdiscip. Rev.-Comput. Mol. Sci. 2020, 11, e01493.
+
 [6]	F. Neese, Wiley Interdiscip. Rev.-Comput. Mol. Sci. 2018, 8, e1327.
+
 [7]	T. Lu, Q. X. Chen, J. Comput. Chem. 2022, 43, 539555.
+
 [8]	T. Lu, F. W. Chen, J. Comput. Chem. 2012, 33, 580592.
