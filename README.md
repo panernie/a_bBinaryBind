@@ -2,6 +2,7 @@
 Similarity search combined with DFT screening co-assembles binary molecular combinations
 
 Step 1.  Shape similarity screening (Small molecule similarity screening can be performed using Discovery Studio)
+
 1.1 Target molecule
 	Upload the 3D structure of aristolochic acid and berberine respectively.
 1.2 Similarity screening
@@ -12,6 +13,7 @@ Step 1.  Shape similarity screening (Small molecule similarity screening can be 
 	The top 20 molecules (AA_DATA.xlsx or BB_DATA.xlsx) of aristolochic acid/berberine were selected and heat_mapping.ipynb was used to draw the similarity heat mapping.
 
 Step 2. DFT calculation
+
 2.1 Generates a binary conformation
 	You can find the data.xlsx file under the DFT/data path, which contains the molecule name and smiles. 
 	Next, you can run the binary_conformation.ipynb script step-by-step to generate the binary conformation. Note that this script is executed by calling an external tool to genmer. If you have deployed the software correctly, you can change the path to it in this line of code to “subprocess.run(”/home/cptd/Documents/Molclus/fangbo/genmer” , shell=True)”. genmer.ini is the configuration file for the genmer tool, and you usually don't need to modify it if you want to generate 100 conformations. More information and instructions on the use of the genmer tool can be found on this website (http://www.keinsci.com/research/molclus.html), and when you use the tool, be sure to cite Tian Lu, Molclus program, Version x.x, http:/ /www.keinsci.com/research/molclus.html (accessed month day, year). The script produces a file atom_num_name.xlsx and folders AAAA, BBBB, and genmer_mole. atom_num_name.xlsx contains the atomic number of each molecule, the folders AAAA and BBBB hold the 3D structure of the molecule, and the genmer_mole folder holds each pair of binary conformations.
